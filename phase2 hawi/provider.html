@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<!--  Head -->
+		<head>
+			<meta charset="UTF-8" >
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+			<title> Provider Dashboard | Hawi</title>
+			<link rel="stylesheet" href="css.css" >
+		</head>
+	<!-- body -->
+		<body class="dashboard">
+			<!-- header section -->
+			<header class="header">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" alt="Hawi Logo" ></a>
+				</div>
+				<nav>
+					<ul class="nav-links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="dashboard.html" >Customer Dashboard</a></li>
+						<li><a href="provider.html"  class="active" >Provider Dashboard</a></li>
+					</ul>
+				</nav>
+	
+			</header>
+				<main id="main-content">
+					<!-- Page Title -->
+					<section class="page-title">
+						<h1> Welcome to Your Dashboard</h1>
+						<p>Manage your services and monitor platform activity. </p>
+					</section>
+				
+				
+					<!-- Statistics Section -->
+					<section class="stats">
+						<div class="stat-card">
+							<img src="images/students2.png" alt="Total Services Icon">
+							<h3>Total Services</h3>
+							<p id="totalServices">0</p>
+						</div>
+						<div class="stat-card">
+							<img src="images/rating.png" alt="Average Rating Icon"> 
+							<h3>Average Rating</h3>
+							<p>4.9</p>
+						</div>
+						<div class="stat-card">
+							<img src="images/training.png" alt="Total Enrollments Icon">
+							<h3>Total Enrollments</h3>
+							<p>112</p>
+						</div>
+					</section>
+					
+				
+				
+					<!-- Services Grid -->
+					
+					<div class="provider-services">
+						<section id="services-grid" class="services-grid">
+						</section>
+					
+					</div>
+					<!-- Actions -->
+					<div class="dashboard-actions">
+						<div class="action-buttons">
+						
+							<button class="btn" onclick="window.location.href='add-service.html'">Add New Service</button>
+							<button class="btn" onclick="window.location.href='manage-staff.html'"> Manage Staff</button>	
+						</div>
+					</div>
+				</main>
+			
+		
+		
+		
+		
+			<!--  Footer Section  -->
+			<footer class="footer">
+				<div class="footer-content">
+					<p class="contact"> Contact us: <a href="#main-content">info@hawiclub.com</a> | <a href="#main-content">+966 55 555 5555</a></p>
+					<div class="social">
+						<a href="https://www.instagram.com/hawi_228?igsh=MXdjZTJlenR5MmdwdQ==" target="_blank">Instagram</a>
+						<span>|</span>
+						<a href="#main-content">Twitter</a>
+					</div>
+
+					<p class="copyright">&copy; 2025 HAWI Club . All rights reserved.</p>
+				</div>
+			</footer>
+
+		
+			<script src="Hawi.js"></script>
+			
+		</body>
+
+	</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Mohammed Al-Qahtani | Hawi Staff</title>
+      <link rel="stylesheet" href="css.css">
+      <script src="Hawi.js" ></script>
+  </head>
+
+  <body>
+  
+    <header class="header">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png" alt="Hawi Logo" ></a>
+        </div>
+
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html" class="active">About Us</a></li>
+            <li><a href="dashboard.html" >Customer Dashboard</a></li>
+            <li><a href="provider.html"   >Provider Dashboard</a></li>
+            
+          </ul>
+        </nav>
+    </header>
+      <!-- ===== MAIN CONTENT ===== -->
+      <main id="main-content">
+      <div class="bb">
+        <table>
+          <caption>Staff Member Profile</caption>
+          <thead>
+            <tr>
+              <th>Photo</th>
+              <th>Name</th>
+              <th>Date of Birth</th>
+              <th>Email</th>
+              <th>Area of Expertise</th>
+              <th>Skills</th>
+              <th>Education</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <!-- spanning cells -->
+              <td rowspan="3"><img src="images/mohammed.jpg" alt="Mohammed Al-Qahtani"></td>
+              <td rowspan="3"><strong>Mohammed Al-Qahtani</strong></td>
+              <td rowspan="3">1996-09-23</td>
+              <td rowspan="3"><a href="mailto:mohammed@hawiclub.com">mohammed@hawiclub.com</a></td>
+
+              <!-- Area of Expertise divided into 3 -->
+              <td class="Area">Music performance and training for beginner and intermediate levels.</td>
+
+              <!-- nested lists -->
+              <td rowspan="3">
+                <ul>
+                  <li>Musical Skills:
+                    <ul>
+                      <li>Oud & Guitar Playing</li>
+                      <li>Music Composition</li>
+                      <li>Song Arrangement</li>
+                    </ul>
+                  </li>
+                  <li>Teaching Skills:
+                    <ul>
+                      <li>One-on-one mentoring</li>
+                      <li>Stage Confidence Building</li>
+                    </ul>
+                  </li>
+                </ul>
+              </td>
+
+              <!-- Education -->
+              <td rowspan="3">
+                <ul>
+                    <li><strong>Degree:</strong> B.Sc. in Sports Science<dl><dt>University:</dt> 
+                      <dd >King Saud University</dd> 
+                      <dt>Graduation Year:</dt>
+                       <dd >2013</dd></dl>
+                    </li>
+                   </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="Area">Trains hobbyists to understand rhythm, melody, and sound expression.</td>
+            </tr>
+
+            <tr>
+              <td class="Area">Helps students discover creativity through traditional Saudi instruments.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+   
+   
+	 
+			<!-- ====== Footer Section ====== -->
+			<footer class="footer">
+				<div class="footer-content">
+					<p class="contact"> Contact us: <a href="#main-content">info@hawiclub.com</a> | <a href="#main-content">+966 55 555 5555</a></p>
+					<div class="social">
+						<a href="https://www.instagram.com/hawi_228?igsh=MXdjZTJlenR5MmdwdQ==" target="_blank">Instagram</a>
+						<span>|</span>
+						<a href="#main-content">Twitter</a>
+					</div>
+
+					<p class="copyright">&copy; 2025 HAWI Club . All rights reserved.</p>
+				</div>
+			</footer>
+	</body>
+</html>

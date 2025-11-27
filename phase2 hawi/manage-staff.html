@@ -1,0 +1,227 @@
+<!-- File: manage-staff.html -->
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+		  <meta charset="UTF-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+		  <title>Manage Staff | Hawi</title>
+		  <link rel="stylesheet" href="css.css"> 
+
+		</head>
+		<body>
+			<!-- header section -->
+			<header class="header">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" alt="Hawi Logo" ></a>
+				</div>
+
+				<nav>
+					<ul class="nav-links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="dashboard.html" >Customer Dashboard</a></li>
+						<li><a href="provider.html"  class="active" >Provider Dashboard</a></li>
+					</ul>
+				</nav>
+	
+			</header>
+
+			<!-- Main -->
+			<main id="main-content">
+			
+					<!-- Breadcrumbs  -->
+				<nav class="breadcrumbs" aria-label="Breadcrumb">
+					<ol>
+						<li><a href="provider.html">Provider Dashboard</a></li>
+						<li aria-current="page">Manage Staff </li>
+					</ol>
+				</nav>
+				
+				<section class="page-title">
+					<h1>Manage Your Team Members</h1>
+					<p>Add new talents or update your current staff — keep your team shining!</p>
+				</section>
+				
+				<section class="form-section">
+					<h2>Current Staff Members</h2>
+					<form class="delete-staff-form" action="#" method="post">
+						<div class="staff-scroll">
+							<!-- Staff Card 1 -->
+							<div class="staff-card">
+								<input type="checkbox" name="delete-staff" value="Mohammed Al-Qahtani">
+								<img src="images/mohammed.jpg" alt="Staff Photo">
+								<div class="staff-info">
+									<span>Mohammed Al-Qahtani</span>
+									<p class="meta">Field: Photography<br>Experience: 5 years</p>
+									<div class="stars">
+										<img src="images/star.PNG" alt="star">
+										<img src="images/star.PNG" alt="star">
+										<img src="images/star.PNG" alt="star">
+										<img src="images/star.PNG" alt="star">
+										
+									</div>
+								</div>
+							</div>
+
+							<!-- Staff Card 2 -->
+							<div class="staff-card">
+								<input type="checkbox" name="delete-staff" value="Dalia Al-Otabibi">
+								<img src="images/Dalia.jpg" alt="Staff Photo">
+								<div class="staff-info">
+									<span>Dalia Al-Otabibi</span>
+									<p class="meta">Field: Art<br>Experience: 3 years</p>
+									<div class="stars">
+										<img src="images/star.PNG" alt="star">
+										<img src="images/star.PNG" alt="star">
+										<img src="images/star.PNG" alt="star">
+									</div>
+								</div>
+							</div>
+
+							<!-- Staff Card 3 -->
+							<div class="staff-card">
+								<input type="checkbox" name="delete-staff" value="Fanar Barboud">
+								<img src="images/Fanar.jpg" alt="Staff Photo">
+								<div class="staff-info">
+									<span>Fanar Barboud</span>
+									<p class="meta">Field: Music<br>Experience: 7 years</p>
+									<div class="stars">
+										<img src="images/star.PNG" alt="star">
+										<img src="images/star.PNG" alt="star">
+										<img src="images/star.PNG" alt="star">
+									</div>
+								</div>
+							</div>
+
+							<!-- Staff Card 4 -->
+							<div class="staff-card">
+								<input type="checkbox" name="delete-staff" value="Wajd Al-Rashid">
+								<img src="images/Wajd.jpg" alt="Staff Photo">
+								<div class="staff-info">
+									<span>Wajd Al-Rashid</span>
+									<p class="meta">Field: Fitness<br>Experience: 1 year</p>
+									<div class="stars">
+										<img src="images/star.PNG" alt="star">
+										<img src="images/star.PNG" alt="star">
+										<img src="images/star.PNG" alt="star">
+									</div>
+								</div>
+							</div>
+
+							<!-- Staff Card 5 -->
+							<div class="staff-card">
+								<input type="checkbox" name="delete-staff" value="Hamoud Al-Dhafiri">
+								<img src="images/Hamoud.jpg" alt="Staff Photo">
+								<div class="staff-info">
+								   <span>Hamoud Al-Dhafiri</span>
+								   <p class="meta">Field: Technology<br>Experience: 9 years</p>
+								   <div class="stars">
+										<img src="images/star.PNG" alt="star">
+									</div>
+								</div>
+							</div>
+
+							  <!-- Staff Card 6 -->
+							<div class="staff-card">
+								<input type="checkbox" name="delete-staff" value="Jumana Al-Hamoud">
+								<img src="images/Jumana.jpg" alt="Staff Photo">
+								<div class="staff-info">
+									<span>Jumana Al-Hamoud</span>
+									<p class="meta">Field: Cook<br>Experience: 3 years</p>
+									<div class="stars">
+										<img src="images/star.PNG" alt="star">
+										<img src="images/star.PNG" alt="star">
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="center-btn">
+						  <button type="submit" class="btn">Delete Selected</button>
+						</div>
+					</form>
+				</section>	
+				
+					
+
+				<!-- Section 2: Add New Staff -->
+				<section class="form-section">
+					<h2 class="page-title">Add New Staff Member</h2>
+					
+					<form class="course-form" action="#" method="post">
+
+						<!-- Full Name & Email -->
+						<div class="form-row">
+							<div class="form-group">
+								<label for="fullName">Full Name</label>
+								<input type="text" id="fullName" name="fullName" placeholder="e.g. Mohammed Al-Saeed" >
+							</div>
+
+							<div class="form-group">
+								<label for="email">Email Address</label>
+								<input type="email" id="email" name="email" placeholder="example@mail.com" >
+							</div>
+						</div>
+							
+								
+
+						<!-- Date of Birth & Expertise -->
+						<div class="form-row">
+							<div class="form-group">
+								<label for="dob">Date of Birth</label>
+								<input type="date" id="dob" name="dob">
+							</div>
+
+							<div class="form-group">
+								<label for="expertise">Area of Expertise</label>
+								<input type="text" id="expertise" name="expertise" placeholder="e.g. Photography">
+							</div>
+						</div>
+
+						<!-- Upload Image -->
+						<div class="form-group full-width">
+							<label for="profilePhoto">Upload Profile Photo</label>
+							<input type="file" id="profilePhoto" name="profilePhoto">
+						</div>
+
+						<!-- Skills -->
+						<div class="form-group full-width">
+							<label for="skills">Skills</label>
+							<input type="text" id="skills" name="skills" placeholder="e.g. Creative thinking, Teamwork">
+						</div>
+
+						<!-- Certificates -->
+						<div class="form-group full-width">
+							<label for="certificates">Education & Certificates</label>
+							<textarea id="certificates" name="certificates" placeholder="e.g. Bachelor's in Art, Certified Trainer"></textarea>
+						</div>
+
+						<!-- Submit -->
+						<div class="center-btn">
+							<button type="submit" class="btn"> Add Staff Member</button>
+						</div>
+
+					</form>
+				</section>
+
+			</main>
+
+			<!-- Footer Section -->
+			<footer class="footer">
+				<div class="footer-content">
+					<p class="contact"> Contact us: <a href="#main-content">info@hawiclub.com</a> | <a href="#main-content">+966 55 555 5555</a></p>
+					<div class="social">
+						<a href="https://www.instagram.com/hawi_228?igsh=MXdjZTJlenR5MmdwdQ==" target="_blank">Instagram</a>
+						<span>|</span>
+						<a href="#main-content">Twitter</a>
+					</div>
+
+					<p class="copyright">&copy; 2025 HAWI Club . All rights reserved.</p>
+				</div>
+			</footer>
+			<script src="Hawi.js"></script>
+
+		</body>
+	</html>

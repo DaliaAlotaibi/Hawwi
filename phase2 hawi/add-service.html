@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<!--  Head -->
+		<head>
+			<meta charset="UTF-8" >
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+		    <title> Add Services | Hawi</title>
+			<link rel="stylesheet" href="css.css" >
+		</head>
+		<!-- body -->
+		<body>
+			<!-- header section -->
+			<header class="header">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" alt="Hawi Logo" ></a>
+				</div>
+
+				<nav>
+					<ul class="nav-links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="dashboard.html" >Customer Dashboard</a></li>
+						<li><a href="provider.html"  class="active" >Provider Dashboard</a></li>
+						
+					</ul>
+				</nav>
+			</header>
+			
+			<main id="main-content">
+			<!-- Breadcrumbs  -->
+				<nav class="breadcrumbs" aria-label="Breadcrumb">
+					<ol>
+						<li><a href="provider.html">Provider Dashboard</a></li>
+						<li aria-current="page">Add Service </li>
+					</ol>
+				</nav>
+						
+					<!-- Add Course Section -->
+					<section class="form-section">
+						<h1 class="page-title">Create a New Course</h1>
+						<p class="page-subtitle">Share your passion — fill out the details below</p>
+
+						<form class="course-form" action="#" method="post">
+				
+						<!-- Course Name and Price -->
+							<div class="form-row">
+								<div class="form-group">
+									<label for="courseName">Course Name</label>
+									<input type="text" id="courseName" name="courseName" placeholder="e.g. Drawing for Kids" >
+								</div>
+								
+								
+								<div class="form-group ">
+									<label for="price">Price (SAR)</label>
+									<input type="number" id="price" name="price" placeholder="e.g. 150" >
+									</div>
+							</div>
+								
+								
+
+
+							<!-- Start Date + Duration (in hours) -->
+							<div class="form-row">
+								<div class="form-group">
+									<label for="startDate">Start Course</label>
+									<input type="date" id="startDate" name="startDate">
+								</div>
+								<div class="form-group full-width">
+									<label for="durationHours">Course Duration (Hours)</label>
+									<input type="number" id="durationHours" name="durationHours" placeholder="e.g. 3" min="1" step="0.5">
+								</div>
+							</div>
+
+							<!-- Trainer + Capacity -->
+							<div class="form-row">
+								<div class="form-group">
+									<label for="trainerName">Trainer Name</label>
+									<input type="text" id="trainerName" name="trainerName" placeholder="e.g. Saad al-Masoud">
+								</div>
+								<div class="form-group">
+									<label for="capacity">Capacity</label>
+									<input type="number" id="capacity" name="capacity" placeholder="e.g. 20" min="10">
+								</div>
+							</div>
+
+							<!-- City + Category -->
+							<div class="form-row">
+								<div class="form-group">
+									<label for="city">City</label>
+									<select id="city" name="city">
+										<option value="" disabled selected hidden>Select a city</option>
+										<option value="jeddah">Jeddah</option>
+										<option value="riyadh">Riyadh</option>
+										<option value="taif">Taif</option>
+										<option value="abha">Abha</option>
+
+									</select>
+								</div>
+
+								<div class="form-group">
+									<label for="category">Category</label>
+										<select id="category" name="category">
+											<option value="" disabled selected hidden>Select a category</option>
+											<option value="art">Art</option>
+											<option value="music">Music</option>
+											<option value="fitness">Fitness</option>
+											<option value="technology">Technology</option>
+											<option value="cook">Cook</option>
+											<option value="reading">Reading & Writing</option>
+											<option value="photography">Photography</option>
+											<option value="languages">Languages</option>
+										</select>
+								</div>
+							</div>
+
+							<!-- Image Upload -->
+							<div class="form-group full-width">
+								<label for="UploadImage">Upload Course Image</label>
+								<input type="file" id="UploadImage" name="UploadImage" accept="image/*">
+							</div>
+								
+							<!-- Description -->
+							<div class="form-group full-width">
+								<label for="description">Description</label>
+									<textarea id="description" name="description" placeholder="Write a short course description..." ></textarea>
+							</div>
+
+							<!-- Submit Button -->
+							<div class="form-group full-width center-btn">
+								<button type="submit" class="btn">Add Course</button>
+							</div>
+
+						</form>
+					</section>
+
+							
+				
+			</main>
+
+			<!-- Footer Section  -->
+			<footer class="footer">
+				<div class="footer-content">
+					<p class="contact"> Contact us: <a href="#main-content">info@hawiclub.com</a> | <a href="#main-content">+966 55 555 5555</a></p>
+					<div class="social">
+						<a href="https://www.instagram.com/hawi_228?igsh=MXdjZTJlenR5MmdwdQ==" target="_blank">Instagram</a>
+						<span>|</span>
+						<a href="#main-content">Twitter</a>
+					</div>
+
+					<p class="copyright">&copy; 2025 HAWI Club . All rights reserved.</p>
+				</div>
+			</footer>
+
+		
+			<script src="Hawi.js"></script>
+			
+		</body>
+
+	</html>

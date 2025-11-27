@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" >
+		<title>Request Service</title>
+		<link rel="stylesheet" href="css.css" >
+		<script src="Hawi.js"></script>
+
+	</head>
+
+	<body>
+
+
+		<!-- header section -->
+		<header class="header">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt="Hawi Logo" ></a>
+			</div>
+
+			<nav>
+				<ul class="nav-links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="services.html" >Services</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="dashboard.html" class="active">Customer Dashboard</a></li>
+					<li><a href="provider.html">Provider Dashboard</a></li>
+				</ul>
+			</nav>
+				
+			
+		</header>
+			
+			
+			<!-- Breadcrumbs  -->
+		<nav class="breadcrumbs" aria-label="Breadcrumb">
+			<ol>
+				<li><a href="Dashboard.html">Customer Dashboard</a></li>
+				<li aria-current="page">Request Service</li>
+			</ol>
+		</nav>
+	
+			
+		<main id="main-content">
+			<!---FORM--->
+				<section class="form-section">
+					<h1 class="page-title">Request Service</h1>
+					<p class="page-subtitle">Fill out the details to request a service</p>
+
+					<form id="request-service-form" class="form-card" action="#" method="post" novalidate>
+						<!-- Customer Name -->
+						<div class="form-group full-width">
+							<label for="customer_name">Customer Name</label>
+							<input type="text" id="customer_name" name="customer_name" placeholder="Enter your full name" required>
+						</div>
+
+						<!-- Select Service -->
+						<div class="form-group full-width">
+							<label for="service_select">Select Service</label>
+							<select id="service_select" name="service_select" required>
+								<option value="">Choose a service...</option>
+								<option value="marsam-club">Marsam Club</option>
+								<option value="football-skills-clinic">Football Skills Clinic</option>
+								<option value="zadk">Zadk</option>
+								<option value="digital-skills-workshop">Digital Skills Workshop</option>
+								<option value="saxophone-music-basics">Saxophone Music Basics</option>
+								<option value="photograph-workshop">Photograph Workshop</option>
+							</select>
+						</div>
+
+						<!-- Due Date -->
+						<div class="form-group full-width">
+							<label for="due_date">Due Date</label>
+							<input type="date" id="due_date" name="due_date" required>
+						</div>
+
+						<!-- Request Description -->
+						<div class="form-group full-width">
+							<label for="request_description">Request Description</label>
+							<textarea id="request_description" name="request_description" rows="6" placeholder="Describe what you need (goals, level, preferred schedule)…" required></textarea>
+						</div>
+
+						<!-- Submit (button) -->
+						<div class="form-actions center-btn">
+						<button type="button" class="btn primary" id="requestBtn">Request</button>
+						</div>
+						
+					</form>
+				</section>
+				
+				<!-- Temporary display for new requests created during this visit -->
+		<section id="newRequestsSection" class="form-card" style="display: none; margin-top: 30px;">
+			<h2>New Requests</h2>
+			<ul id="newRequestsList"></ul>
+		</section>
+
+	
+			</main>
+		<!--  Footer Section  -->
+
+			<footer class="footer">
+				<div class="footer-content">
+					<p class="contact"> Contact us: <a href="#main-content">info@hawiclub.com</a> | <a href="#main-content">+966 55 555 5555</a></p>
+					<div class="social">
+						<a href="https://www.instagram.com/hawi_228?igsh=MXdjZTJlenR5MmdwdQ==" target="_blank">Instagram</a>
+						<span>|</span>
+						<a href="#main-content">Twitter</a>
+					</div>
+
+					<p class="copyright">&copy; 2025 HAWI Club . All rights reserved.</p>
+				</div>
+			</footer>
+
+
+
+	</body>
+
+	</html>

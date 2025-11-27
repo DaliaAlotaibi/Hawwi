@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<title>about us | Hawi </title>  
+			<link rel="stylesheet" href="css.css">
+			<meta charset="UTF-8">
+			<script src="Hawi.js" ></script>
+		</head>
+		 
+
+
+
+		<body class="body">
+		<!---heder-->
+  	
+			<header class="header">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" alt="Hawi Logo" ></a>
+				</div>
+
+				<nav>
+					<ul class="nav-links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="about.html" class="active" >About Us</a></li>
+						<li><a href="dashboard.html" >Customer Dashboard</a></li>
+						<li><a href="provider.html" >Provider Dashboard</a></li>
+					</ul>
+				</nav>
+
+	
+			</header>
+
+
+			<main id="main-content">
+				<!-- Page Title -->
+				<section class="page-title">
+						<h1>Who we are</h1>
+				</section>
+				
+				<section class="form-section">
+					
+					<div class="staff-scroll">
+
+						<!-- Staff Card 1 -->
+						<div class="staff-card">
+							<img src="images/Dalia.jpg" alt="Dalia Photo">
+							<div class="staff-info">
+								<a href='Dalia-Staff.html' target="staaf"> <span>Dalia alotaibi</span> </a>
+								<p class="meta">Field: Photography<br>Experience: 5 years</p>
+								<div class="stars">
+									<img src="images/star.png" alt="star">
+									<img src="images/star.png" alt="star">
+									<img src="images/star.png" alt="star">
+									<img src="images/star.png" alt="star">
+									<img src="images/star.png" alt="star">
+												
+								</div>
+							</div>
+						</div>
+
+						<!-- Staff Card 2 -->
+						<div class="staff-card">		
+							<img src="images/mohammed.jpg" alt="mohammed Photo">
+							<div class="staff-info">
+								<a href='mohammed-Staff.html' target="staaf"> <span>Mohammed Al-Qahtani</span> </a>
+								<p class="meta">Field: Music<br>Experience: 3 years</p>
+								<div class="stars">
+									<img src="images/star.PNG" alt="star">
+									<img src="images/star.PNG" alt="star">
+									<img src="images/star.PNG" alt="star">
+									<img src="images/star.PNG" alt="star">
+								</div>
+							</div>
+						</div>
+
+									<!-- Staff Card 3 -->
+						<div class="staff-card">
+							<img src="images/Fanar.jpg" alt="Fanar Photo">
+							<div class="staff-info">
+								<a href='Fanar-Staff.html' target="staaf"> <span>Fanar Barboud</span> </a> 
+								<p class="meta">Field: Art<br>Experience: 7 years</p>
+								<div class="stars">
+									<img src="images/star.PNG" alt="star">
+									<img src="images/star.PNG" alt="star">
+									<img src="images/star.PNG" alt="star">
+									<img src="images/star.PNG" alt="star">
+									<img src="images/star.PNG" alt="star">
+								</div>
+							</div>
+						</div>
+
+						<!-- Staff Card 4 -->
+						<div class="staff-card">
+							<img src="images/Wajd.jpg" alt="Wajd Photo">
+							<div class="staff-info">
+								<a href='Wajd-Staff.html' target="staaf"> <span>Wajd Al-Rashid</span> </a>
+								<p class="meta">Field: Fitness<br>Experience: 1 years</p>
+								<div class="stars">
+									<img src="images/star.PNG" alt="star">
+									<img src="images/star.PNG" alt="star">
+									<img src="images/star.PNG" alt="star">
+								</div>
+							</div>
+						</div>
+
+						<!-- Staff Card 5 -->
+						<div class="staff-card">
+							<img src="images/Hamoud.jpg" alt="Hamoud Photo">
+							<div class="staff-info">
+								<a href='Hamoud-Staff.html' target="staaf"> <span>Hamoud Al-Dhafiri</span> </a>
+								<p class="meta">Field: Technology<br>Experience: 9 years</p>
+								 <div class="stars">
+									<img src="images/star.PNG" alt="star">
+									<img src="images/star.PNG" alt="star">
+									<img src="images/star.PNG" alt="star">
+									<img src="images/star.PNG" alt="star">
+								</div>
+							</div>
+						</div>
+
+						<!-- Staff Card 6 -->
+							<div class="staff-card">
+								<img src="images/Jumana.jpg" alt="Jumana Photo">
+								<div class="staff-info">
+									<a href='Jumana-Staf.html' target="staaf"> <span>Jumana al-humud</span> </a>
+									<p class="meta">Field: Cook<br>Experience: 3 years</p>
+									<div class="stars">
+										<img src="images/star.PNG" alt="star">
+										<img src="images/star.PNG" alt="star">
+									</div>
+								</div>
+							</div>
+					</div>
+				</section>
+
+				<!--forms -->
+
+				<section class="form-section">
+					<h2 class="page-title">Join Our Team</h2>
+						
+					<form class="course-form" action="#" method="post" onsubmit="return isTrue(this)">
+
+						<!-- Full Name & Email -->
+						<div class="form-row">
+							<div class="form-group">
+								<label for="fullName">Full Name</label>
+								<input type="text" id="fullName" name="fullName" placeholder="e.g. Mohammed Al-Saeed" >
+							</div>
+
+							<div class="form-group">
+								<label for="email">Email Address</label>
+								<input type="email" id="email" name="email" placeholder="example@mail.com" >
+							</div>
+						</div>
+								
+									
+
+						<!-- Date of Birth & Expertise -->
+						<div class="form-row">
+							<div class="form-group">
+								<label for="dob">Date of Birth</label>
+								<input type="date" id="dob" name="dob">
+							</div>
+
+							<div class="form-group">
+								<label for="expertise">Area of Expertise</label>
+								<input type="text" id="expertise" name="expertise" placeholder="e.g. Photography">
+							</div>
+						</div>
+
+						<!-- Upload Image -->
+						<div class="form-group full-width">
+							<label for="profilePhoto">Upload Profile Photo</label>
+							<input type="file" id="profilePhoto" name="profilePhoto">
+						</div>
+
+						<!-- Skills -->
+						<div class="form-group full-width">
+							<label for="skills">Skills</label>
+							<input type="text" id="skills" name="skills" placeholder="e.g. Creative thinking, Teamwork">
+						</div>
+
+							<!-- Certificates -->
+						<div class="form-group full-width">
+							<label for="certificates">Education & Certificates</label>
+							<textarea id="certificates" name="certificates" placeholder="e.g. Bachelor's in Art, Certified Trainer"></textarea>
+						</div>
+
+						<!-- Submit -->
+						<div class="center-btn">
+							<button type="submit" class="btn" >➕ Add Staff Member</button>
+						</div>
+
+					</form>
+				</section>
+			</main>
+			<!---footer-->
+			<footer class="footer">
+				<div class="footer-content">
+					<p class="contact"> Contact us: <a href="#main-content">info@hawiclub.com</a> | <a href="#main-content">+966 55 555 5555</a></p>
+					<div class="social">
+						<a href="https://www.instagram.com/hawi_228?igsh=MXdjZTJlenR5MmdwdQ==" target="_blank">Instagram</a>
+						<span>|</span>
+						<a href="#main-content">Twitter</a>
+					</div>
+
+					<p class="copyright">&copy; 2025 HAWI Club . All rights reserved.</p>
+				</div>
+			</footer>
+
+		</body>
+		
+
+
+ 
+	</html>

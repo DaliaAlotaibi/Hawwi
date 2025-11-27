@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+	<html lang="en">
+
+		<head>
+
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1" >
+			<title>Evaluate Service</title>
+			<link rel="stylesheet" href="css.css" >
+			<script src="Hawi.js"></script>
+
+		</head>
+
+		<body>
+
+			<!-- header section -->
+				<header class="header">
+					<div class="logo">
+						<a href="index.html"><img src="images/logo.png" alt="Hawi Logo" ></a>
+					</div>
+
+					<nav>
+						<ul class="nav-links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="services.html" >Services</a></li>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="dashboard.html" class="active">Customer Dashboard</a></li>
+							<li><a href="provider.html">Provider Dashboard</a></li>
+						</ul>
+					</nav>
+				</header>
+				
+				<main id="main-content">
+						<!-- Breadcrumbs -->
+		<nav class="breadcrumbs" aria-label="Breadcrumb">
+			<ol>
+				<li><a href="Dashboard.html">Customer Dashboard</a></li>
+				<li aria-current="page">Evaluate Service</li>
+			</ol>
+		</nav>
+				
+
+
+				<!-- ===== FORM ===== -->
+					<section class="form-section">
+						<h1 class="page-title">Evaluate Service</h1>
+						<p class="page-subtitle">Share your experience and help us improve our services</p>
+
+						<form id="evaluate-service-form" class="form-card" action="#" method="post" novalidate>
+							<!-- Customer Name -->
+								<div class="form-group">
+									<label for="customerName">Customer Name</label>
+									<input type="text" id="customerName" name="customerName" placeholder="Enter your full name" required >
+								</div>
+
+						  <!-- Select Previous Service -->
+							<div class="form-group">
+								<label for="serviceSelect">Select Previous Service</label>
+								<select id="serviceSelect" name="serviceSelect" required>
+									<option value="">Choose a service...</option>
+									<option value="marsam-club">Marsam Club</option>
+									<option value="football-skills-clinic">Football Skills Clinic</option>
+									<option value="zadk">Zadk</option>
+									<option value="digital-skills-workshop">Digital Skills Workshop</option>
+									<option value="saxophone-music-basics">Saxophone Music Basics</option>
+									<option value="photograph-workshop">Photograph Workshop</option>
+								</select>
+							</div>
+
+							<!-- Star Rating (uses images) -->
+							<div class="form-group">
+								<label>Service Rating</label>
+								<div class="rating" role="radiogroup" aria-label="Service rating from 1 to 5">
+									<!-- NOTE: row-reverse → التعبئة تسير لليسار عند الهوفر -->
+									
+									<input type="radio" id="star5" name="rating" value="5" >
+									<label for="star5" title="5 stars"></label>
+
+									<input type="radio" id="star4" name="rating" value="4" >
+									<label for="star4" title="4 stars"></label>
+
+									<input type="radio" id="star3" name="rating" value="3" >
+									<label for="star3" title="3 stars"></label>
+
+									<input type="radio" id="star2" name="rating" value="2" >
+									<label for="star2" title="2 stars"></label>
+
+									<input type="radio" id="star1" name="rating" value="1" >
+									<label for="star1" title="1 star"></label>
+								</div>
+							</div>
+
+							<!-- Detailed Feedback -->
+							<div class="form-group">
+								<label for="feedback">Detailed Feedback</label>
+								<textarea id="feedback" name="feedback" rows="6" placeholder="Tell us about your experience…"></textarea>
+							</div>
+
+							<!-- Submit (button) -->
+							<div class="form-actions center-btn">
+							<button type="submit" id="evaluateBtn" class="btn primary">Evaluate</button>
+							</div>
+						</form>
+					</section>
+
+
+				</main>
+				<!-- Footer Section  -->
+
+				<footer class="footer">
+					<div class="footer-content">
+						<p class="contact"> Contact us: <a href="#main-content">info@hawiclub.com</a> | <a href="#main-content">+966 55 555 5555</a></p>
+						<div class="social">
+							<a href="https://www.instagram.com/hawi_228?igsh=MXdjZTJlenR5MmdwdQ==" target="_blank">Instagram</a>
+							<span>|</span>
+							<a href="#main-content">Twitter</a>
+						</div>
+
+						<p class="copyright">&copy; 2025 HAWI Club . All rights reserved.</p>
+					</div>
+				</footer>
+
+		</body>
+	</html>

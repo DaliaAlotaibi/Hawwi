@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" >
+		<meta name="viewport" content="width=device-width, initial-scale=1" >
+		<title>Customer Dashboard</title>
+		<link rel="stylesheet" href="css.css" >
+		<script src="Hawi.js"></script>
+	</head>
+	<body>
+
+		<!-- header section -->
+		<header class="header">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt="Hawi Logo" ></a>
+			</div>
+
+			<nav>
+				<ul class="nav-links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="services.html" >Services</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="dashboard.html" class="active">Customer Dashboard</a></li>
+					<li><a href="provider.html">Provider Dashboard</a></li>
+				</ul>
+			</nav>
+	
+			</header>
+
+			<!--  Main Content  -->
+			<main id="main-content">
+				<!-- Provider Hero Section -->
+				<section class="provider-hero">
+					<div class="hero-overlay">
+						<h1>Customer Dashboard</h1>
+						<p>Discover amazing training services from certified professionals in Saudi Arabia 🌟</p>
+					</div>
+				</section>
+
+
+				<!-- Flexbox Section -->
+				<section class="customer-dashboard-services">
+					<div class="customer-service">
+						<h3 class="service-title">
+						<img src="images/Request.png" alt="Request Icon" class="service-icon" >
+						<span>Request Service</span></h3>       
+						<p>Do you want to improve your hobby? Request one of our professionals right now!</p>
+						<button id="goRequestBtn" class="btn dashboard-btn">Request Service</button>
+					</div>
+
+					<div class="customer-service">
+						<h3 class="service-title">
+						<img src="images/Star.png" alt="Evaluate Icon" class="service-icon" >
+						<span>Evaluate Service</span></h3>
+						<p>Rate your completed service and share your feedback with us.</p>
+						<button id="goEvaluateBtn" class="btn dashboard-btn">Evaluate Service</button>
+					</div>
+
+					<div class="customer-service">
+						<h3 class="service-title">
+						<img src="images/Favorite.png" alt="Favorites Icon" class="service-icon" >
+						<span>Favorites</span></h3>
+						<p>View and manage your favorite services in one place.</p>
+						<button id="goFavoritesBtn" class="btn dashboard-btn">View Favorites</button>
+					</div>
+				</section>
+
+			<!-- Previous Service Requests -->
+				<section class="previous-requests">
+					<h2>Previous Service Requests</h2>
+					<table>
+						<thead>
+							<tr>
+								<th>Service Name</th>
+								<th>Date of Request</th>
+								<th>Cost</th>
+								<th>Status</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Art & Painting Workshop</td>
+								<td>May 15, 2025</td>
+								<td>100 SAR</td>
+								<td>Declined</td>
+							</tr>
+							<tr>
+								<td>Swimming</td>
+								<td>March 21, 2025</td>
+								<td>85 SAR</td>
+								<td>Completed</td>
+							</tr>
+							<tr>
+								<td>Art & Painting Workshop</td>
+								<td>February 4, 2025</td>
+								<td>200 SAR</td>
+								<td>Completed</td>
+							</tr>
+							<tr>
+								<td>Art & Painting Workshop</td>
+								<td>January 11, 2025</td>
+								<td>85 SAR</td>
+								<td>Pending</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+
+				<!--  Stats Section  -->
+				<section class="stats">
+					<div class="stat-box">
+						<h4>Total Requests</h4>
+						<p>4</p>
+					</div>
+					<div class="stat-box">
+						<h4>Completed</h4>
+						<p>2</p>
+					</div>
+					<div class="stat-box">
+						<h4>Pending</h4>
+						<p>1</p>
+					</div>
+					<div class="stat-box">
+						<h4>Total Spent</h4>
+						<p>285 SAR</p>
+					</div>
+				</section>
+			</main>
+
+
+			<!--  Footer Section  -->
+			<footer class="footer">
+				<div class="footer-content">
+					<p class="contact"> Contact us: <a href="#main-content">info@hawiclub.com</a> | <a href="#main-content">+966 55 555 5555</a></p>
+					<div class="social">
+						<a href="https://www.instagram.com/hawi_228?igsh=MXdjZTJlenR5MmdwdQ==" target="_blank">Instagram</a>
+						<span>|</span>
+						<a href="#main-content">Twitter</a>
+					</div>
+					<p class="copyright">&copy; 2025 HAWI Club . All rights reserved.</p>
+				</div>
+			</footer>
+			
+			
+	</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<!--  Head -->
+		<head>
+			<meta charset="UTF-8" >
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+			<title> Course | Hawi</title>
+			<link rel="stylesheet" href="css.css" >
+			
+		</head>
+		<!-- body -->
+		<body class="services-page" >
+			<!-- header section -->
+			<header class="header">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" alt="Hawi Logo" ></a>
+				</div>
+
+				<nav>
+					<ul class="nav-links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="services.html" class="active">Services</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="dashboard.html">Customer Dashboard</a></li>
+						<li><a href="provider.html">Provider Dashboard</a></li>
+					</ul>
+				</nav>
+	
+			</header>
+		
+			<main id="main-content">
+				<!--  HERO (Static Image)  -->
+				<section class="hero">
+					<img src="images/sae.jpg" alt="Hawi Introduction Image">
+				</section>
+				
+				<section class="page-title">
+					<h1>Pick Your Hobby</h1>
+				</section>
+				
+				<!-- Filters Section -->
+				<section class="filters">
+					<label for="sort" >Sort by:</label>
+					<select id="sort" name="sort" class="sort-dropdown">
+						<option value="" disabled selected hidden>Select a sorting option</option>
+						<optgroup label="Price">
+							<option value="price-low-high">Low to High</option>
+							<option value="price-high-low">High to Low</option>
+						</optgroup>
+						<optgroup label="Name">
+							<option value="name-a-z">A - Z</option>
+							<option value="name-z-a">Z - A</option>
+						</optgroup>
+					</select>
+				</section>
+				
+				<!-- Services Grid -->
+				<section >
+					<div id="services-grid" class="services-grid">
+					<!--  Card 1  -->
+						<div class="service-card" data-id="1">
+							<button class="favorite-btn" aria-label="Add to favorites" title="Add to favorites"> <img src="images/heart.png" alt="Add to favorites icon"></button>
+							<div class="category">Art</div>
+							<img src="images/art.png" alt="Art Workshop" >
+							<h3>Marsam Club</h3>
+							<p class="meta"><span class="datetime">15 Oct 2025 | Jeddah | 1.5 hours</span><br ><span class="trainer">Trainer: Dalia Al-Otabibi</span></p>
+							<p class="description">Empowers artists and hobbyists to grow their skills through inspiring workshops, events, and exhibitions that spark creativity and community.</p>
+							<strong class="price">85</strong>
+						</div>
+
+						<!--  Card 2  -->
+						<div class="service-card" data-id="2">
+							<button class="favorite-btn" aria-label="Add to favorites" title="Add to favorites"><img src="images/heart.png" alt="Add to favorites icon"></button>
+							<div class="category">Music</div>
+							<img src="images/music.jpg" alt="Music Workshop" >
+							<h3>Saxophone Music Basics</h3>
+							<p class="meta"><span class="datetime">14 Feb 2026 | Riyadh | 1 hour</span><br ><span class="trainer">Trainer: Fanar Barboud</span></p>
+							<p class="description">Learn the beauty of oud playing with guided musical sessions for all levels.</p>
+							<strong class="price">150</strong>
+						</div>
+
+						<!--  Card 3  -->
+						<div class="service-card" data-id="3">
+							<button class="favorite-btn" aria-label="Add to favorites" title="Add to favorites"><img src="images/heart.png" alt="Add to favorites icon"> </button>
+							<div class="category">Fitness</div>
+							<img src="images/football.jpg" alt="Football Training" >
+							<h3>Football Skills Clinic</h3>
+							<p class="meta"><span class="datetime">15 Dec 2025 | Jeddah | 2 hours</span><br ><span class="trainer">Trainer: Wajd Al-Rashid</span></p>
+							<p class="description">Learn football skills in a fun and safe training environment, focusing on dribbling, passing, and teamwork for all levels and ages.</p>
+							<strong class="price">100</strong>
+						</div>
+
+						<!--  Card 4 -->
+						<div class="service-card" data-id="4">
+							<button class="favorite-btn" aria-label="Add to favorites" title="Add to favorites"><img src="images/heart.png" alt="Add to favorites icon"></button>
+							<div class="category">Cook</div>
+							<img src="images/cook.jpg" alt="Cooking Course" >
+							<h3>Zadk</h3>
+							<p class="meta"><span class="datetime">1 Jun 2026 | Abha | 4 hours</span><br ><span class="trainer">Trainer: Jumana Al-Hamoud</span></p>
+							<p class="description">Zadk Club offers a creative space to explore skills, talents, and ideas through workshops, interactive events, and community-driven activities.</p>
+							<strong class="price">300</strong>
+						</div>
+
+						<!--  Card 5  -->
+						<div class="service-card" data-id="5">
+							<button class="favorite-btn" aria-label="Add to favorites" title="Add to favorites"><img src="images/heart.png" alt="Add to favorites icon"></button>
+							<div class="category">Technology</div>
+							<img src="images/pc.jpg" alt="Computer Course" >
+							<h3>Digital Skills Workshop</h3>
+							<p class="meta"><span class="datetime">6 Aug 2026 | Taif | 1 hour</span><br ><span class="trainer">Trainer: Hamoud Al-Dhafiri</span></p>
+							<p class="description">Build your confidence using computers with hands-on practice in typing, file management, internet safety, and digital tools.</p>
+							<strong class="price">120 </strong>
+						</div>
+						
+						<!--  Card 6  -->
+						<div class="service-card" data-id="6">
+							<button class="favorite-btn" aria-label="Add to favorites" title="Add to favorites"><img src="images/heart.png" alt="Add to favorites icon"></button>
+							<div class="category">Photography</div>
+							<img src="images/photograph.jpg" alt="photograph Course" >
+							<h3>Photograph Workshop</h3>
+							<p class="meta"><span class="datetime">2 Aug 2026 | Riyadh | 2 hour</span><br ><span class="trainer">Trainer: Mohammed Al-Qahtani</span></p>
+							<p class="description">Learn to capture stunning photos by mastering lighting, composition, and editing — perfect for beginners to build creativity and confidence behind the camera.</p>
+							<strong class="price">170 </strong>
+						</div>				
+					</div>
+				</section>
+		
+			</main>
+			<!--  Footer Section  -->
+			<footer class="footer">
+				<div class="footer-content">
+					<p class="contact"> Contact us: <a href="#main-content">info@hawiclub.com</a> | <a href="#main-content">+966 55 555 5555</a></p>
+					<div class="social">
+						<a href="https://www.instagram.com/hawi_228?igsh=MXdjZTJlenR5MmdwdQ==" target="_blank">Instagram</a>
+						<span>|</span>
+						<a href="#main-content">Twitter</a>
+					</div>
+					<p class="copyright">&copy; 2025 HAWI Club . All rights reserved.</p>
+				</div>
+			</footer>
+
+			<script src="Hawi.js"></script>
+		</body>
+
+	</html>
